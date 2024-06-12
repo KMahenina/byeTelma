@@ -13,7 +13,7 @@ color=[
 ]
 
 
-limit=int(input("limit:"))
+limit=int(input("\033[1;37m limit:"))
 print("      ")
 for i in range(0,limit):
 	c=random.choice(color)
